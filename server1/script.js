@@ -112,7 +112,7 @@ class ClientApp {
   
   // Instantiate the ClientApp when the DOM is fully loaded
   document.addEventListener('DOMContentLoaded', () => {
-    const API_URL = 'http://localhost:3000/api/v1/sql';
+    const API_URL = 'http://comp4537lab5origin2-26158.nodechef.com/api/v1/sql';
     new ClientApp(API_URL);
   });
   
